@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#main {
+  height: 100%;
+  background: repeat url("./images/sea-view/water.gif") hsl(0, 0%, 2%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#serene {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#serene a {
+  width: calc(648px / 1.5);
+  height: calc(484px / 1.5);
+  margin: 25px;
+}
+
+#serene a img {
+  width: 100%;
+  height: 100%;
+}
+
+#serene a:hover {
+  cursor: url(./images/sword-cursor.gif), pointer;
+}
+
+#jerry:hover {
+  content: url(./images/sea-view/gaze.webp)
+}
+
+#based:hover {
+  content: url(./images/sea-view/allure.webp);
+}
+
+#mystique:hover {
+  content: url(./images/sea-view/eternal-question.webp);
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
